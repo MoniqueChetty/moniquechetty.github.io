@@ -1,0 +1,531 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#topbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 10px;
+    background-color: white;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#topbar-right {
+    margin-right: 30px;
+    padding: 10px;
+}
+
+.menu {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px;
+}
+
+#dropdown {
+    font-family: 'Poppins', sans-serif;
+    border-top: 2px;
+    background-color: white;
+    box-shadow: 0 2px 5px #ccc;
+    height: 100px;
+    width: 150px;
+    padding-top: 20px;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    right: 350px;
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#demo p:last-of-type {
+    border: none;
+}
+
+#demo:hover #dropdown {
+    display: block;
+}
+
+#dropdown p {
+    border-bottom: 1px solid lightgrey;
+    margin: 0px 20px;
+    padding: 3px;
+}
+
+#tree-logo {
+    width: 40px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+#block {
+    padding-right: 20px;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    background-color: rgb(170, 210, 54);
+    padding: 9px 34px;
+    border-radius: 4px;
+    border: 0px;
+    border-color: unset;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #8b8b99;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1.6;
+}
+
+#section1 {
+    background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#section1 p {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    font-size: 18px;
+    /* font-weight: 600; */
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 44px;
+    letter-spacing: 8.8px;
+    /* line-height: 1.2px; */
+    text-align: center;
+    padding: 5px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 44px;
+    text-align: center;
+    padding: 0px;
+}
+
+#section2 {
+    width: 100%;
+    height: 65vh;
+    color: white;
+    justify-content: stretch;
+}
+
+#section2 p {
+    color: white;
+    font-weight: 100;
+}
+
+.steps {
+    width: 25vw;
+}
+
+#section2 i {
+    font-size: 96px;
+    padding-top: 15vh;
+}
+
+#section2 h3 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+#step1 {
+    background-color: #5acda6;
+}
+
+#step2 {
+    background-color: #91ac41;
+}
+
+#step3 {
+    background-color: #e4b476;
+}
+
+#step4 {
+    background-color: #f69dad;
+}
+
+#section3a {
+    background-color: #f7eee2;
+    text-align: center;
+    height: 40vh;
+}
+
+#section3 {
+    background-color: #f7eee2;
+    height: 100%;
+}
+
+#section3 i {
+    background-color: #e3b375;
+    color: white;
+    font-size: 60px;
+    width: 130px;
+    height: 130px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 2.1;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.green-text {
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 30px;
+}
+
+#section4a {
+    background-color: white;
+    text-align: center;
+    height: 40vh;
+}
+
+#section4 {
+    background-color: white;
+    height: fit-content;
+}
+
+.testimonial {
+    display: block;
+    background-color: #f5f6fb;
+    border-radius: 45px;
+    border-top-right-radius: 0px;
+    margin: 20px;
+    width: 23vw;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+
+#section4 img {
+    width: 80px;
+    border-radius: 50px;
+}
+
+#section4 p {
+    font-style: Italic;
+}
+
+.author-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+.author-des {
+    font-size: 12px;
+    font-style: Italic;
+}
+
+#section5 {
+    height: 80%;
+    overflow: hidden;
+}
+
+#fruit {
+    background-image: url(https://mobirise.com/extensions/organicamp/assets/images/19.jpg);
+    width: 65%;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fruit img {
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+#s5-div2 {
+    background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png);
+    background-position: center;
+    background-size: cover;
+    width: 35%;
+    overflow: hidden;
+    height: 100%;
+    text-align: left;
+    padding: 70px;
+}
+
+#s5-div2 h2 {
+    text-align: left;
+}
+
+#s5-div2 p {
+    text-align: left;
+    padding: 0px;
+    /* margin: 0; */
+}
+
+#s5-div2 input {
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px 60px 10px 20px;
+}
+
+#section5 button {
+    background-color: #f69dad;
+    margin-top: 30px;
+}
+
+#section6 {
+    width: 100%;
+    height: 200px;
+    justify-content: space-evenly;
+    background-color: #f6fcfa;
+}
+
+#section6 p {
+    color: chartreuse;
+}
+
+#vimeo {
+    color: #8b8b99;
+    margin-bottom: 0%;
+}
+
+#line {
+    background-color: #e4b476;
+    width: 130px;
+    height: 1px;
+    margin: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#section6b {
+    height: 600px;
+}
+
+#section7 {
+    text-align: left;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 600px;
+    margin-bottom: 20px;
+}
+
+.head-desc {
+    padding-left: 20px;
+    text-align: left;
+}
+
+#section7 p {
+    /* padding-left: 20px; */
+    text-align: left;
+}
+
+#section7 h3 {
+    padding-left: 20px;
+    /* text-align: left; */
+}
+
+#section7 h2 {
+    padding-left: 20px;
+    text-align: left;
+}
+
+#section-div {
+    margin: 40px 20px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+    padding-left: 15px;
+}
+
+#contact input {
+    /* padding: 20px; */
+    margin: 5px 0px;
+    padding-left: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    height: 50px;
+}
+
+#contact button {
+    width: 200px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    #topbar-right span {
+        display: none;
+    }
+    h1 {
+        width: 100%;
+        font-weight: 400;
+        font-size: 28px;
+    }
+    #section2 {
+        height: auto;
+        /* height: 1660px; */
+    }
+    #section2 div {
+        padding: 2%;
+    }
+    .steps {
+        width: 100vw;
+    }
+    #section3a {
+        margin-top: 1px;
+    }
+    #section3 i {
+        font-size: 16px;
+        width: 35px;
+        height: 35px;
+    }
+    .flex {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #section4a {
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    .testimonial {
+        display: block;
+        background-color: #f5f6fb;
+        border-radius: 45px;
+        border-top-right-radius: 0px;
+        margin: 10px;
+        width: 80vw;
+        padding-top: 2%;
+        padding-bottom: 4%;
+    }
+    #section4 br {
+        height: 1px;
+    }
+    #fruit {
+        width: 100vw;
+    }
+    #fruit img {
+        display: none;
+    }
+    #s5-div5 {}
+    #section5 {
+        margin-top: 5px;
+        width: 100%;
+        height: 600px;
+        margin-bottom: 2px;
+    }
+    #line {
+        background-color: #e4b476;
+        width: 130px;
+        height: 1px;
+        margin: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #section6b {
+        height: 600px;
+    }
+    #section7 {
+        text-align: left;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        height: 600px;
+        margin-bottom: 20px;
+    }
+    .head-desc {
+        padding-left: 20px;
+        text-align: left;
+    }
+    #section7 p {
+        /* padding-left: 20px; */
+        text-align: left;
+    }
+    #section7 h3 {
+        padding-left: 20px;
+        /* text-align: left; */
+    }
+    #section7 h2 {
+        padding-left: 20px;
+        text-align: left;
+    }
+    #section-div {
+        margin: 40px 20px;
+    }
+    #contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: left;
+        padding-left: 15px;
+    }
+    #contact input {
+        /* padding: 20px; */
+        margin: 5px 0px;
+        padding-left: 20px;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        height: 50px;
+    }
+    #contact button {
+        width: 200px;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+}
